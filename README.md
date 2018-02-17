@@ -3,7 +3,9 @@ Easily Pass Strings to Microsoft Text To Speech Bots. Ideal for Virtual Cable an
 
 Note that to use the program with voice chat systems, you'll need to install a Virtual Audio Cable. I recommend the free software from https://www.vb-audio.com/Cable/
 
-After you have the Audio Cable installed, unzip TextToSpeech and install it. Then make certain that you choose the Virtual Cable as the input in your desired voice chat system. After that, you should be good to go to use TextToSpeech.
+
+
+After you have the Audio Cable installed, download https://github.com/JamesDHitchcock/TextToSpeech/blob/master/TextToSpeechSetup_x64.msi and run it (note that TextToSpeech only supports 64 bit systems at the moment). Then make certain that you choose the Virtual Cable as the input in your desired voice chat system. After that, you should be good to go to use TextToSpeech.
 
 Eventually, I hope to write my own virtual microphone driver so that the extra step isn't needed, but for now it works.
 
