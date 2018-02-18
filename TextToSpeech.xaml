@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TextToSpeech"
         mc:Ignorable="d"
-        Title="TextToSpeech" Height="119.612" Width="867.692">
+        Title="TextToSpeech" Height="119.612" Width="867.692" Icon="TTSicon.ico">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="59*"/>
