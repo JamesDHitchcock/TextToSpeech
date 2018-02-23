@@ -17,7 +17,7 @@
         <Slider x:Name="slider" HorizontalAlignment="Left" Margin="330,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.414,0.33" Grid.ColumnSpan="2" Width="150" Minimum="-10" SmallChange="1" TickPlacement="BottomRight" ToolTip="Rate" ValueChanged="slider_Changed" LargeChange="3" IsSnapToTickEnabled="True"/>
         <TextBox x:Name="sliderBox" HorizontalAlignment="Left" Height="17" Margin="389,35,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="33" Grid.ColumnSpan="2" TextAlignment="Center" RenderTransformOrigin="0.044,0.43"/>
         <Label x:Name="label" Content="-10" HorizontalAlignment="Left" Margin="322,65,0,0" VerticalAlignment="Top" Width="25" Height="24" FontSize="8" RenderTransformOrigin="0.412,1.594"/>
-        <Label x:Name="label2" Content="10" HorizontalAlignment="Left" Margin="60,65,0,0" VerticalAlignment="Top" Width="25" Height="24" FontSize="8" RenderTransformOrigin="0.412,1.594" Grid.Column="1"/>
+        <Label x:Name="label2" Content="10" HorizontalAlignment="Left" Margin="62,65,0,0" VerticalAlignment="Top" Width="25" Height="24" FontSize="8" RenderTransformOrigin="0.412,1.594" Grid.Column="1"/>
         <Label x:Name="label3" Content="0" HorizontalAlignment="Left" Margin="398,65,0,0" VerticalAlignment="Top" Width="14" Height="20" FontSize="8" RenderTransformOrigin="0.412,1.594" Grid.ColumnSpan="2"/>
         <Label x:Name="label4" Content="-5" HorizontalAlignment="Left" Margin="361,65,0,0" VerticalAlignment="Top" Width="17" Height="24" FontSize="8" RenderTransformOrigin="0.412,1.594"/>
         <Label x:Name="label5" Content="5" HorizontalAlignment="Left" Margin="30,65,0,0" VerticalAlignment="Top" Width="14" Height="24" FontSize="8" RenderTransformOrigin="0.412,1.594" Grid.Column="1"/>
