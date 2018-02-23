@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TextToSpeech"
         mc:Ignorable="d"
-        Title="TextToSpeech" Height="119.612" Width="867.692" Icon="TTS.ico">
+        Title="TextToSpeech" Height="123.148" Width="867.692" Icon="TTS.ico">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="59*"/>
@@ -14,6 +14,13 @@
         <TextBox x:Name="txtB" Height="23" Margin="27,10,27,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" KeyDown="txtB_KeyDown" Grid.ColumnSpan="2"/>
         <ComboBox x:Name="cBox" VerticalAlignment="Top" Margin="27,49,118,0" Loaded="cBox_Loaded" SelectionChanged="cBox_Changed"/>
         <ComboBox x:Name="deviceComboBox" VerticalAlignment="Top" Grid.Column="1" Margin="118,49,27,0" Loaded="deviceComboBox_Loaded" SelectionChanged="deviceComboBox_Changed"/>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="330,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.414,0.33" Grid.ColumnSpan="2" Width="150" Minimum="-10" SmallChange="1" TickPlacement="BottomRight" ToolTip="Rate" ValueChanged="slider_Changed" LargeChange="3" IsSnapToTickEnabled="True"/>
+        <TextBox x:Name="sliderBox" HorizontalAlignment="Left" Height="17" Margin="389,35,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="33" Grid.ColumnSpan="2" TextAlignment="Center" RenderTransformOrigin="0.044,0.43"/>
+        <Label x:Name="label" Content="-10" HorizontalAlignment="Left" Margin="322,65,0,0" VerticalAlignment="Top" Width="25" Height="24" FontSize="8" RenderTransformOrigin="0.412,1.594"/>
+        <Label x:Name="label2" Content="10" HorizontalAlignment="Left" Margin="60,65,0,0" VerticalAlignment="Top" Width="25" Height="24" FontSize="8" RenderTransformOrigin="0.412,1.594" Grid.Column="1"/>
+        <Label x:Name="label3" Content="0" HorizontalAlignment="Left" Margin="398,65,0,0" VerticalAlignment="Top" Width="14" Height="20" FontSize="8" RenderTransformOrigin="0.412,1.594" Grid.ColumnSpan="2"/>
+        <Label x:Name="label4" Content="-5" HorizontalAlignment="Left" Margin="361,65,0,0" VerticalAlignment="Top" Width="17" Height="24" FontSize="8" RenderTransformOrigin="0.412,1.594"/>
+        <Label x:Name="label5" Content="5" HorizontalAlignment="Left" Margin="30,65,0,0" VerticalAlignment="Top" Width="14" Height="24" FontSize="8" RenderTransformOrigin="0.412,1.594" Grid.Column="1"/>
 
     </Grid>
 </Window>
