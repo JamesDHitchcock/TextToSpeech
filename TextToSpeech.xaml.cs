@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -92,6 +92,11 @@ namespace TextToSpeech
         {
             txtB.Focus();
         }
+        private void slider_Changed(object sender, RoutedEventArgs e)
+        {
+            sliderBox.Text = slider.Value.ToString();
+            txtB.Focus();
+        }
 
         void _listener_OnKeyPressed(object sender, KeyPressedArgs e)//checks if cntrl and flag are pressed concurrently. if so mins or maxs program
         {
@@ -165,6 +170,7 @@ namespace TextToSpeech
                 SpeechSynthesizer synth = new SpeechSynthesizer();
 
                 synth.SelectVoice(cBox.SelectedItem.ToString());
+                synth.Rate = (int)slider.Value;
                 synth.SetOutputToWaveFile(wFile);
                 synth.Speak(txtB.Text);
                 synth.SetOutputToNull();
